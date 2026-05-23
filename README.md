@@ -35,7 +35,9 @@ This project applies machine learning techniques to predict diseases from struct
 
 ✅ Achieved **98.25% accuracy** for Breast Cancer prediction using SVM  
 
-✅ Improved Diabetes prediction accuracy from **75.32% → 76.62%** using data preprocessing techniques  
+✅ Improved Diabetes prediction accuracy from **75.32% → 77.92%** using preprocessing, feature scaling, and SMOTE balancing techniques  
+
+✅ Improved Diabetes Recall Score to **80%** for better diabetic patient detection  
 
 ---
 
@@ -45,7 +47,7 @@ This project applies machine learning techniques to predict diseases from struct
 |----------|------------|-----------|
 | Heart Disease | Random Forest | 98.54% |
 | Breast Cancer | SVM | 98.25% |
-| Diabetes | Random Forest | 76.62% |
+| Diabetes | Random Forest | 77.92% |
 
 ---
 
@@ -83,7 +85,8 @@ The models were evaluated using:
 - Basic preprocessing only
 - Raw medical data used directly
 - Diabetes dataset contained invalid zero values
-- Lower diabetes prediction accuracy
+- No class balancing
+- Lower prediction performance
 
 ---
 
@@ -93,18 +96,24 @@ The models were evaluated using:
 
 ✅ Applied Feature Scaling using StandardScaler  
 
+✅ Applied SMOTE for class balancing  
+
+✅ Improved Recall Score to **80%**  
+
+✅ Reduced false negative predictions  
+
 ✅ Used multiple classification algorithms for comparison  
 
 ✅ Evaluated models using Accuracy, Precision, Recall, F1 Score, and Confusion Matrix  
 
-✅ Improved Diabetes prediction accuracy from **75.32% → 76.62%**
+✅ Improved Diabetes prediction accuracy from **75.32% → 77.92%**
 
+---
 
-- Accuracy: **76.62%**
-- Precision: **0.6557**
-- Recall: **0.7273**
-- F1 Score: **0.6897**
-
+- Accuracy: **77.92%**
+- Precision: **0.6567**
+- Recall: **0.8000**
+- F1 Score: **0.7213**
 ## Confusion Matrix
 
 <img width="622" height="570" alt="Screenshot 2026-05-22 171055" src="https://github.com/user-attachments/assets/ef748feb-699b-46d9-a56a-e3e8a2819b21" />

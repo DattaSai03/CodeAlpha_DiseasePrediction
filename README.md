@@ -70,7 +70,8 @@ The models were evaluated using:
 
 ## Confusion Matrix
 
-(Add Screenshot Here)
+<img width="633" height="546" alt="Screenshot 2026-05-22 170845" src="https://github.com/user-attachments/assets/b621dac1-7891-47df-89bf-008e09a7030b" />
+
 
 ---
 
@@ -106,7 +107,8 @@ The models were evaluated using:
 
 ## Confusion Matrix
 
-(Add Screenshot Here)
+<img width="622" height="570" alt="Screenshot 2026-05-22 171055" src="https://github.com/user-attachments/assets/ef748feb-699b-46d9-a56a-e3e8a2819b21" />
+
 
 ---
 
@@ -119,7 +121,8 @@ The models were evaluated using:
 
 ## Confusion Matrix
 
-(Add Screenshot Here)
+<img width="627" height="572" alt="Screenshot 2026-05-22 170703" src="https://github.com/user-attachments/assets/e82e522d-7f38-44ae-97fc-2e6351d14c08" />
+
 
 ---
 
@@ -172,13 +175,15 @@ These invalid values were replaced with median values to improve model performan
 
 ```bash
 pip install pandas numpy matplotlib scikit-learn xgboost
+```
 
 ▶️ Run the Project
+
 Open the notebook in Google Colab or Jupyter Notebook
 Upload all dataset CSV files
 Run all cells sequentially
 
-📁 Project Structure
+``` 📁 Project Structure
 DiseasePrediction/
 │
 ├── Disease_Prediction_Project.ipynb
@@ -190,7 +195,7 @@ DiseasePrediction/
 │   ├── diabetes_confusion_matrix.png
 │   └── cancer_confusion_matrix.png
 ├── README.md
-
+```
 
 # 📚 Datasets Used
 
@@ -204,13 +209,13 @@ The datasets used in this project were originally sourced from the UCI Machine L
 ## Dataset Links
 
 - Heart Disease Dataset  
-  https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+  [Download here]((https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset))
 
 - PIMA Indians Diabetes Dataset  
-  https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+  [Download here]((https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database))
 
 - Breast Cancer Wisconsin Dataset  
-  https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
+  [Download here]([https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data])
 
 ## Note
 

@@ -116,7 +116,8 @@ The models were evaluated using:
 - F1 Score: **0.7213**
 ## Confusion Matrix
 
-<img width="622" height="570" alt="Screenshot 2026-05-22 171055" src="https://github.com/user-attachments/assets/ef748feb-699b-46d9-a56a-e3e8a2819b21" />
+<img width="624" height="552" alt="Screenshot 2026-05-23 150214" src="https://github.com/user-attachments/assets/fad4a62a-93ed-4ca5-99da-1e0d3b49dce7" />
+
 
 
 ---

@@ -196,12 +196,13 @@ DiseasePrediction/
 │   └── cancer_confusion_matrix.png
 ├── README.md
 ```
+---
 
 # 📚 Datasets Used
 
 The datasets used in this project were originally sourced from the UCI Machine Learning Repository and accessed through Kaggle.
 
-## Datasets
+# Datasets
 - Heart Disease Dataset
 - PIMA Indians Diabetes Dataset
 - Breast Cancer Wisconsin Dataset
@@ -217,12 +218,13 @@ The datasets used in this project were originally sourced from the UCI Machine L
 - Breast Cancer Wisconsin Dataset  
   [Download here](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
-## Note
+# Note
 
 All required CSV files are also included in this repository for easy access and reproducibility.
 
 
-⚙️ Machine Learning Workflow
+
+## ⚙️ Machine Learning Workflow
 
 - Data Collection
 - Data Loading
@@ -235,7 +237,9 @@ All required CSV files are also included in this repository for easy access and 
 - Model Evaluation
 - Performance Comparison
 
-📈 Future Improvements
+
+
+## 📈 Future Improvements
 
 - Add Hyperparameter Tuning
 - Implement Cross Validation
@@ -243,14 +247,17 @@ All required CSV files are also included in this repository for easy access and 
 - Add Real-time User Input Prediction
 - Use Deep Learning Models
 - Improve Diabetes Prediction Accuracy
+  
 
-👨‍💻 Author
+
+## 👤 Author
 
 Datta Sai Srinivas Devulapalli
+
 ML Intern | https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/
 
 Developed as part of Machine Learning Internship at Code Alpha
 
-📄 License
+## 📄 License
 
 This project is open source and available under the MIT License.

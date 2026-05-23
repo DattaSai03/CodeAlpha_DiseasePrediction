@@ -209,13 +209,13 @@ The datasets used in this project were originally sourced from the UCI Machine L
 ## Dataset Links
 
 - Heart Disease Dataset  
-  [Download here]((https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset))
+  [Download here](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
 
 - PIMA Indians Diabetes Dataset  
-  [Download here]((https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database))
+  [Download here](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
 - Breast Cancer Wisconsin Dataset  
-  [Download here]([https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data])
+  [Download here](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 ## Note
 
@@ -224,28 +224,31 @@ All required CSV files are also included in this repository for easy access and 
 
 ⚙️ Machine Learning Workflow
 
-Data Collection
-Data Loading
-Data Cleaning
-Data Preprocessing
-Feature Scaling
-Train-Test Split
-Model Training
-Prediction
-Model Evaluation
-Performance Comparison
+- Data Collection
+- Data Loading
+- Data Cleaning
+- Data Preprocessing
+- Feature Scaling
+- Train-Test Split
+- Model Training
+- Prediction
+- Model Evaluation
+- Performance Comparison
 
 📈 Future Improvements
-Add Hyperparameter Tuning
-Implement Cross Validation
-Deploy as Web Application
-Add Real-time User Input Prediction
-Use Deep Learning Models
-Improve Diabetes Prediction Accuracy
+
+- Add Hyperparameter Tuning
+- Implement Cross Validation
+- Deploy as Web Application
+- Add Real-time User Input Prediction
+- Use Deep Learning Models
+- Improve Diabetes Prediction Accuracy
+
 👨‍💻 Author
 
 Datta Sai Srinivas Devulapalli
 ML Intern | https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/
+
 Developed as part of Machine Learning Internship at Code Alpha
 
 📄 License

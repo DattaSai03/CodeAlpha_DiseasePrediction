@@ -264,7 +264,7 @@ All required CSV files are also included in this repository for easy access and 
 
 Datta Sai Srinivas Devulapalli
 
-ML Intern | https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/
+ML Intern | [Linkedin Profile](https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/)
 
 Developed as part of Machine Learning Internship at Code Alpha
 

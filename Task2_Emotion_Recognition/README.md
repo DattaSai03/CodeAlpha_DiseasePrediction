@@ -360,7 +360,7 @@ Please download it using the link above before running the notebook.
 
 Datta Sai Srinivas Devulapalli
 
-ML Intern | https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/
+ML Intern | [Linkedin Profile](https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/)
 
 Developed as part of Machine Learning Internship at Code Alpha
 

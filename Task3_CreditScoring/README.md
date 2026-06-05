@@ -1,67 +1,65 @@
-# Credit Scoring Prediction using Machine Learning
+# CodeAlpha_CreditScoring
 
-A Machine Learning project that predicts customer credit risk using financial and demographic data with advanced preprocessing, feature engineering, class balancing, and classification models.
+This project focuses on predicting credit risk using Machine Learning techniques and financial data analysis.
+
+The model analyzes customer financial information and predicts whether a customer is likely to be a good or bad credit risk.
+
+---
+
+# Credit Risk Prediction using Machine Learning
+
+A Machine Learning project that predicts creditworthiness using data preprocessing, feature engineering, class balancing, and multiple classification algorithms.
 
 ---
 
 # 🎯 Project Overview
 
-This project focuses on predicting whether a customer is a good or bad credit risk using Machine Learning algorithms.
+This project applies Machine Learning techniques to classify customer credit risk based on financial and personal information.
 
-The system analyzes customer financial information and classifies applicants for credit scoring and loan approval support.
-
----
-
-# 💳 Credit Risk Classification
-
-## Classes Covered
+## Prediction Classes
 
 * Good Credit Risk
 * Bad Credit Risk
 
----
-
-# 🚀 Techniques Used
+## Techniques Used
 
 * Data Cleaning
 * Missing Value Handling
 * Feature Engineering
 * One-Hot Encoding
 * Feature Scaling
-* SMOTE Oversampling
+* SMOTE Class Balancing
 * Logistic Regression
 * Random Forest
 * XGBoost
 * Cross Validation
-* Overfitting Detection
+* Overfitting Analysis
 
 ---
 
-# 🏆 Key Achievements
+# 🚀 Key Achievements
 
-✅ Performed complete end-to-end Machine Learning workflow
+✅ Performed complete preprocessing and feature engineering
 
-✅ Applied Feature Engineering for better prediction performance
-
-✅ Handled class imbalance using SMOTE
-
-✅ Reduced overfitting using regularization and hyperparameter tuning
+✅ Handled imbalanced dataset using SMOTE
 
 ✅ Achieved stable model generalization
 
-✅ Compared multiple Machine Learning models
+✅ Reduced overfitting using hyperparameter tuning
 
-✅ Evaluated models using multiple performance metrics
+✅ Compared multiple Machine Learning algorithms
+
+✅ Achieved best testing accuracy of **72.04%**
 
 ---
 
-# 📊 Final Model Performance
+# 📊 Final Model Results
 
-| Model               | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
-| ------------------- | -------- | --------- | ------ | -------- | ------- |
-| Logistic Regression | 69.89%   | 77.08%    | 82.84% | 79.86%   | 60.10%  |
-| Random Forest       | 65.05%   | 75.94%    | 75.37% | 75.66%   | 59.62%  |
-| XGBoost             | 68.28%   | 77.37%    | 79.10% | 78.22%   | 59.16%  |
+| Model               | Training Accuracy | Testing Accuracy | Precision | Recall  | F1 Score | ROC-AUC |
+| ------------------- | ----------------- | ---------------- | --------- | ------- | -------- | ------- |
+| Logistic Regression | 75.18%            | 67.74%           | 77.21%    | 78.36%  | 77.78%   | 60.72%  |
+| Random Forest       | 75.29%            | 67.74%           | 75.00%    | 82.84%  | 78.72%   | 60.16%  |
+| XGBoost             | 55.58%            | 72.04%           | 72.04%    | 100.00% | 83.75%   | 53.41%  |
 
 ---
 
@@ -76,80 +74,73 @@ The models were evaluated using:
 * ROC-AUC Score
 * Confusion Matrix
 * Cross Validation Accuracy
+* Overfitting Analysis
 
 ---
 
 # 🧠 Machine Learning Workflow
 
-## Data Preprocessing
+## Initial Challenges
 
-The following preprocessing techniques were applied:
-
-* Missing Value Handling
-* Outlier Removal
-* Feature Engineering
-* One-Hot Encoding
-* Feature Scaling
-* Train-Test Split
-* SMOTE Oversampling
+* Missing values in financial data
+* Imbalanced class distribution
+* Model overfitting
+* Low minority class prediction
 
 ---
 
-# ⚙️ Feature Engineering
+## Optimized Solution
 
-Additional meaningful features were created:
+✅ Applied Missing Value Imputation
 
-* Credit_per_Duration
-* High_Credit
-* Is_Young
+✅ Applied Feature Engineering
 
-These engineered features improved the learning capability of the models.
+✅ Applied One-Hot Encoding
 
----
+✅ Applied StandardScaler
 
-# ⚖️ Overfitting Reduction Techniques
+✅ Applied SMOTE for class balancing
 
-To improve generalization and reduce overfitting:
+✅ Reduced overfitting using hyperparameter tuning
 
-✅ Regularization applied in Logistic Regression
-
-✅ Limited tree depth in Random Forest
-
-✅ Reduced estimators and learning rate in XGBoost
-
-✅ Applied Cross Validation
-
-✅ Applied Feature Scaling
-
-✅ Used SMOTE carefully for class balancing
+✅ Used Cross Validation for better generalization
 
 ---
 
-# 📉 Model Generalization Analysis
+# 🎯 Final Performance Summary
 
 ## Logistic Regression
 
+* Training Accuracy: **75.18%**
+* Testing Accuracy: **67.74%**
 * Mild Overfitting
-* Best overall balanced performance
+* Stable Generalization
 
 ## Random Forest
 
-* Slight overfitting observed
-* Good recall performance
+* Training Accuracy: **75.29%**
+* Testing Accuracy: **67.74%**
+* Mild Overfitting
+* Good Recall Performance
 
 ## XGBoost
 
-* Excellent generalization
-* Stable prediction capability
+* Training Accuracy: **55.58%**
+* Testing Accuracy: **72.04%**
+* Excellent Generalization
+* Highest Testing Accuracy
 
 ---
 
-# 📊 Visualizations Included
+# 📉 Overfitting Analysis
 
-* Class Distribution Graph
-* Confusion Matrix
-* ROC Curve
-* Accuracy Comparison Graph
+The project includes train-test accuracy gap analysis to identify:
+
+* Excellent Generalization
+* Mild Overfitting
+* Strong Overfitting
+
+This helped optimize model stability and performance.
 
 ---
 
@@ -166,8 +157,8 @@ To improve generalization and reduce overfitting:
 
 ## Libraries Used
 
-* Pandas
 * NumPy
+* Pandas
 * Matplotlib
 * Seaborn
 * Scikit-learn
@@ -176,47 +167,19 @@ To improve generalization and reduce overfitting:
 
 ---
 
-# 🔍 Dataset Information
+# 🔍 Data Preprocessing
 
-The project uses the German Credit Dataset for predicting customer credit risk.
+The following preprocessing steps were performed:
 
-## Dataset Features
+* Missing Value Handling
+* Feature Engineering
+* One-Hot Encoding
+* Feature Scaling
+* Outlier Removal
+* SMOTE Oversampling
+* Train-Test Split
 
-* Age
-* Sex
-* Job
-* Housing
-* Saving Accounts
-* Checking Account
-* Credit Amount
-* Duration
-* Purpose
-
-## Target Variable
-
-* Good Credit Risk
-* Bad Credit Risk
-
----
-
-# ⚙️ Machine Learning Models Used
-
-## Logistic Regression
-
-* Applied L2 Regularization
-* Balanced class weights
-
-## Random Forest
-
-* Controlled tree depth
-* Reduced overfitting using min samples constraints
-
-## XGBoost
-
-* Learning rate tuning
-* Regularization
-* Column sampling
-* Subsampling
+These preprocessing techniques improved model performance and reduced bias.
 
 ---
 
@@ -225,64 +188,80 @@ The project uses the German Credit Dataset for predicting customer credit risk.
 ## Installation
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost imbalanced-learn
 ```
 
----
+▶️ Run the Project
 
-# ▶️ Run the Project
+Open the notebook in Google Colab or Jupyter Notebook
 
-1. Open the notebook in Google Colab or Jupyter Notebook
+Load the German Credit Dataset
 
-2. Download the German Credit Dataset
+Run all cells sequentially
 
-3. Update dataset path
-
-4. Run all notebook cells sequentially
-
-5. Train models and evaluate results
+Train and evaluate the models
 
 ---
 
 # 📁 Project Structure
 
-Credit_Scoring_Prediction/
+```text
+Task3_CreditScoring/
 │
 ├── CreditScoring.ipynb
 ├── README.md
 ├── requirements.txt
 │
-├── models/
-│   ├── logistic_regression.pkl
-│   ├── random_forest.pkl
-│   └── xgboost_model.pkl
-│
 ├── results/
 │   ├── confusion_matrix.png
 │   ├── roc_curve.png
-│   └── accuracy_comparison.png
+│   └── accuracy_graph.png
 │
 └── dataset/
-└── german_credit_data.csv
+    └── german_credit_data.csv
+```
+
 
 ---
 
 # 📚 Dataset Used
 
-## German Credit Dataset
+The dataset used in this project is the German Credit Risk Dataset.
 
-The dataset contains customer financial and demographic details used for credit risk classification.
+## Dataset Information
+
+* Customer Financial Information
+* Loan Details
+* Credit History
+* Demographic Information
+* Risk Classification
+
+---
+
+# ⚙️ Machine Learning Workflow
+
+* Data Collection
+* Data Cleaning
+* Missing Value Handling
+* Feature Engineering
+* Encoding
+* Feature Scaling
+* SMOTE Balancing
+* Train-Test Split
+* Model Training
+* Prediction
+* Performance Evaluation
 
 ---
 
 # 📈 Future Improvements
 
-* Implement Deep Learning Models
-* Hyperparameter Optimization using GridSearchCV
-* Deploy as a Web Application
-* Add Real-Time Credit Risk Prediction
-* Improve ROC-AUC Performance
-* Add Explainable AI (XAI)
+* Hyperparameter Optimization
+* Ensemble Learning
+* Deep Learning Models
+* Explainable AI (XAI)
+* Web Application Deployment
+* Real-Time Credit Scoring System
 
 ---
 
@@ -290,13 +269,12 @@ The dataset contains customer financial and demographic details used for credit 
 
 Datta Sai Srinivas Devulapalli
 
-ML Intern | LinkedIn Profile
+ML Intern | [LinkedIn Profile](https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/)
 
-Developed as part of Machine Learning Internship
+Developed as part of Machine Learning Internship at Code Alpha
 
 ---
 
 # 📄 License
 
 This project is open source and available under the MIT License.
-

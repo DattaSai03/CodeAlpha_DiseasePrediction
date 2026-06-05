@@ -115,6 +115,9 @@ The models were evaluated using:
 * Testing Accuracy: **67.74%**
 * Mild Overfitting
 * Stable Generalization
+* 
+<img width="637" height="566" alt="Logistic Regression_Confusion" src="https://github.com/user-attachments/assets/966320f0-f365-4c9b-a47f-a4f35d4820f6" />
+
 
 ## Random Forest
 
@@ -122,6 +125,9 @@ The models were evaluated using:
 * Testing Accuracy: **67.74%**
 * Mild Overfitting
 * Good Recall Performance
+  
+<img width="633" height="568" alt="Random Forest_Confusion" src="https://github.com/user-attachments/assets/01eedc4c-6d4b-4b7c-8684-7be0f3234efa" />
+
 
 ## XGBoost
 
@@ -129,6 +135,9 @@ The models were evaluated using:
 * Testing Accuracy: **72.04%**
 * Excellent Generalization
 * Highest Testing Accuracy
+
+<img width="635" height="565" alt="XGBoost_Confusion" src="https://github.com/user-attachments/assets/fe6bcf9b-ef40-44c8-a3a5-2f26190e29cb" />
+
 
 ---
 
@@ -227,6 +236,8 @@ Task3_CreditScoring/
 # 📚 Dataset Used
 
 The dataset used in this project is the German Credit Risk Dataset.
+
+[Download Dataset](https://www.kaggle.com/datasets/kabure/german-credit-data-with-risk?utm_source=chatgpt.com)
 
 ## Dataset Information
 

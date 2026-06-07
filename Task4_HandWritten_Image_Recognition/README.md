@@ -52,7 +52,7 @@ A **CNN-based hierarchical feature extractor** is used:
 - 10,000 test images
 - Grayscale handwritten digits
 
-📌 https://www.kaggle.com/datasets/hojjatk/mnist-dataset
+📌 [Download here](https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
 
 ---
 
@@ -61,7 +61,7 @@ A **CNN-based hierarchical feature extractor** is used:
 - 26 classes
 - Extended handwritten alphabet dataset
 
-📌 https://www.kaggle.com/datasets/crawford/emnist
+📌 [Download here](https://www.kaggle.com/datasets/crawford/emnist)
 
 ---
 
@@ -86,6 +86,7 @@ A **CNN-based hierarchical feature extractor** is used:
 
 📌 Note:
 Some EMNIST letter classes (especially visually similar alphabets in the mid-range classes) show slightly lower precision and recall due to inter-class similarity (e.g., C–G, I–J, O–Q).
+
 ---
 
 ## 🏆 Key Achievements
@@ -266,10 +267,8 @@ Handwritten-Recognition-System/
 ## 👨‍💻 Author
 
 **Datta Sai Srinivas Devulapalli**  
-ML Intern | Deep Learning Enthusiast  
+ML Intern | [Linkedin Profile](https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/)
 
-🔗 LinkedIn:  
-https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/
 
 ---
 

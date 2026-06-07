@@ -1,177 +1,228 @@
-# 📌 Handwritten Digit & Character Recognition System
+# 🧠 CodeAlpha | Handwritten Digit & Character Recognition System
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Deep%20Learning-CNN-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Datasets-MNIST%20%7C%20EMNIST-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Accuracy-99%25%20%7C%2093%25-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Framework-TensorFlow-red?style=for-the-badge"/>
+</p>
 
 ---
 
-## 🧠 Deep Learning using CNN (MNIST + EMNIST)
+## 🚀 Project Overview
+
+This project is a **high-performance Deep Learning system** designed to recognize:
+
+- 🔢 Handwritten digits (0–9)
+- 🔤 Handwritten alphabets (A–Z)
+
+It leverages **Convolutional Neural Networks (CNNs)** trained on **MNIST and EMNIST datasets** to achieve strong real-world generalization.
+
+The system is capable of processing handwritten images and predicting characters with **near-human-level accuracy on digits**.
 
 ---
 
-## 📖 Project Overview
+## 🎯 Problem Statement
 
-This project is a Deep Learning-based Image Classification System that recognizes:
+Handwritten text recognition is a challenging computer vision problem due to:
 
-- 🔢 Handwritten digits (0–9) using MNIST dataset  
-- 🔤 Handwritten alphabets (A–Z) using EMNIST Letters dataset  
+- Variations in handwriting styles
+- Noise in input images
+- Class similarity (e.g., O vs 0, I vs 1)
+- Dataset imbalance in extended alphabets
 
-The system uses **Convolutional Neural Networks (CNNs)** for high-accuracy image recognition and can predict both digits and letters from handwritten images.
+This project aims to build a **robust and scalable recognition system** using deep learning.
+
+---
+
+## 🧠 Solution Architecture
+
+A **CNN-based hierarchical feature extractor** is used:
+
+- Low-level feature extraction (edges, curves)
+- Mid-level pattern recognition (shapes, strokes)
+- High-level classification (digits & alphabets)
 
 ---
 
 ## 📊 Datasets Used
 
-### 🔢 MNIST Dataset (Digits 0–9)
-- 60,000 training images  
-- 10,000 test images  
-- Grayscale handwritten digits  
+### 🔢 MNIST (Digits 0–9)
+- 60,000 training images
+- 10,000 test images
+- Grayscale handwritten digits
 
-📌 Dataset Link:  
-https://www.kaggle.com/datasets/hojjatk/mnist-dataset  
-
----
-
-### 🔤 EMNIST Letters Dataset (A–Z)
-- 88,800+ images  
-- 26 classes (A–Z letters)  
-- Extended MNIST dataset for alphabets  
-
-📌 Dataset Link:  
-https://www.kaggle.com/datasets/crawford/emnist  
+📌 https://www.kaggle.com/datasets/hojjatk/mnist-dataset
 
 ---
 
-## 🎯 Objectives
+### 🔤 EMNIST Letters (A–Z)
+- 88,800+ images
+- 26 classes
+- Extended handwritten alphabet dataset
 
-- Build separate CNN models for MNIST and EMNIST  
-- Achieve high accuracy with minimal overfitting  
-- Improve generalization using augmentation & regularization  
-- Test models on real-world handwritten images  
-- Visualize performance using graphs and confusion matrix  
-
----
-
-## 🧠 Model Performance
-
-### 🔢 MNIST Model Results
-- Training Accuracy: 99.49%  
-- Testing Accuracy: 99.28%  
-- Overfitting Gap: 0.21%  
-- Generalization: Excellent ✅  
-
----
-
-### 🔤 EMNIST Model Results
-- Training Accuracy: 97.05%  
-- Testing Accuracy: 93.56%  
-- Overfitting Gap: 3.49%  
-- Generalization: Excellent ✅  
+📌 https://www.kaggle.com/datasets/crawford/emnist
 
 ---
 
 ## 🏗️ Model Architecture (CNN)
 
-- Conv2D Layers (Feature Extraction)  
-- MaxPooling Layers (Downsampling)  
-- Batch Normalization (Stability)  
-- Dropout (Overfitting Reduction)  
-- Flatten Layer  
-- Dense Fully Connected Layers  
-- Softmax Output Layer  
+- Conv2D → Feature Extraction
+- MaxPooling → Dimensionality Reduction
+- Batch Normalization → Training Stability
+- Dropout → Overfitting Reduction
+- Flatten → Vector Conversion
+- Dense Layers → Classification Head
+- Softmax → Output Prediction
 
 ---
 
-## ⚙️ Techniques Used
+## 📈 Model Performance
 
-### 🧹 Data Preprocessing
-- Grayscale conversion  
-- Image resizing (28x28)  
-- Normalization (0–1 scaling)  
-- Label encoding  
+| Dataset | Train Accuracy | Test Accuracy | Overfitting |
+|----------|---------------|---------------|-------------|
+| MNIST | 99.49% | 99.28% | 0.21% |
+| EMNIST | 97.05% | 93.56% | 3.49% |
+
+📌 Note:
+Some EMNIST letter classes (especially visually similar alphabets in the mid-range classes) show slightly lower precision and recall due to inter-class similarity (e.g., C–G, I–J, O–Q).
+---
+
+## 🏆 Key Achievements
+
+- 🚀 Achieved **99%+ accuracy on MNIST**
+- 🔤 Achieved **93%+ accuracy on EMNIST**
+- 🧠 Built **dual CNN architecture system**
+- ⚡ Reduced overfitting using Dropout + BatchNorm
+- 📊 Improved generalization using data augmentation
+- 🧪 Successfully tested on real-world handwritten images
+- 🔍 Strong performance consistency across datasets
 
 ---
 
-### 🔄 Data Augmentation (EMNIST)
-- Rotation  
-- Zoom  
-- Width shift  
-- Height shift  
+## 🧪 Evaluation Metrics
 
----
-
-### 🧠 Regularization
-- Dropout layers  
-- Batch Normalization  
-- Early Stopping  
-
----
-
-## 📈 Evaluation Metrics
-
-- Accuracy  
-- Precision  
-- Recall  
+- Accuracy Score  
+- Precision / Recall  
 - F1 Score  
 - Confusion Matrix  
-- Training vs Validation Curves  
+- Training vs Validation Curves
+
+📌 Class-wise analysis shows minor misclassification in visually similar EMNIST letters, which is expected in handwritten datasets.
+
+---
+---
+
+## 📊 Visual Results
+
+### 📉 Training Performance (Accuracy & Loss Curves)
+
+**MNIST**
+
+<img width="854" height="464" alt="MNIST Train" src="https://github.com/user-attachments/assets/10d96b9a-89c2-487f-bbda-162a356d60a4" />
 
 ---
 
-## 📊 Results Summary
-
-| Model  | Training Accuracy | Testing Accuracy | Overfitting Gap |
-|--------|------------------|------------------|------------------|
-| MNIST  | 99.49%           | 99.28%           | 0.21%            |
-| EMNIST | 97.05%           | 93.56%           | 3.49%            |
+<img width="854" height="488" alt="MNIST Loss" src="https://github.com/user-attachments/assets/822a2c0c-e8f6-43da-aea9-2401a4c1b770" />
 
 ---
 
-## 🧪 Testing
+**EMNIST**
 
-The models were tested using:
-
-- ✔ Test dataset images  
-- ✔ Random handwritten images uploaded by users  
-- ✔ Real-world images captured externally  
-
-### 🔍 Testing Steps
-- Upload image  
-- Convert to grayscale  
-- Resize to 28×28  
-- Normalize pixel values  
-- Predict using trained CNN model  
+<img width="1030" height="566" alt="EMNIST Gain" src="https://github.com/user-attachments/assets/aaaab604-4e19-4b26-911d-ab082f17ace8" />
 
 ---
 
-## 📉 Visual Results
+<img width="1021" height="585" alt="EMNIST Loss" src="https://github.com/user-attachments/assets/397b1b92-5020-4821-9ba3-f433972f5d29" />
 
-- Confusion Matrix (MNIST & EMNIST)  
-- Accuracy Graphs  
-- Loss Curves  
-
-These results confirm strong learning performance and good generalization.
 
 ---
 
-## 🚀 Key Achievements
+### 📊 Confusion Matrix - MNIST
 
-- Achieved 99%+ accuracy on MNIST  
-- Achieved 93%+ accuracy on EMNIST  
-- Built 2 independent CNN models  
-- Reduced overfitting using regularization  
-- Successfully tested on real-world images  
-- Improved generalization using data augmentation  
+<img width="795" height="694" alt="MNIST confusion" src="https://github.com/user-attachments/assets/988da4e2-90b6-4ee7-8f01-c9f7ee313d99" />
+
 
 ---
 
-## 🧰 Tech Stack
+### 📊 Confusion Matrix - EMNIST
 
+<img width="441" height="358" alt="Letter_Confusion" src="https://github.com/user-attachments/assets/4c1f1cdb-f764-4a22-8db2-7a5c5617746b" />
+
+
+---
+
+### 🧪 Sample Predictions (Real-World Testing)
+
+Here are the few samples used for the testing
+
+<img width="40" height="40" alt="Test_1" src="https://github.com/user-attachments/assets/3980fabf-a590-4f7b-89d0-c6ee1571af74" />
+
+---
+
+<img width="164" height="260" alt="Test3" src="https://github.com/user-attachments/assets/420f17b9-1992-4697-a7a2-c7288a737d52" />
+
+---
+
+<img width="67" height="109" alt="Test2" src="https://github.com/user-attachments/assets/b8a9167a-bef1-4e86-9b66-55c4d6ecad3a" />
+
+
+---
+
+## 🔬 Data Preprocessing Pipeline
+
+- Grayscale normalization (0–1 scaling)
+- Image resizing (28×28)
+- Label encoding
+- Noise reduction
+- Dataset balancing (EMNIST improvements)
+
+---
+
+## 🔄 Data Augmentation (EMNIST)
+
+To improve generalization:
+
+- Rotation
+- Zoom
+- Width shift
+- Height shift
+
+---
+
+## 🧪 Real-World Testing
+
+The model was validated using:
+
+- Handwritten test samples
+- User-uploaded images
+- External real-world images
+
+### Pipeline:
+1. Image upload  
+2. Grayscale conversion  
+3. Resize to 28×28  
+4. Normalization  
+5. CNN Prediction  
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages:**
 - Python 🐍  
+
+**Libraries:**
 - TensorFlow / Keras 🤖  
 - NumPy  
 - Matplotlib  
 - Seaborn  
 - OpenCV  
 - Scikit-learn  
+
+**Environment:**
 - Google Colab  
+- Jupyter Notebook  
 
 ---
 
@@ -179,47 +230,49 @@ These results confirm strong learning performance and good generalization.
 ```
 Handwritten-Recognition-System/
 │
-├── mnist_model.keras
-├── emnist_letters_model.keras
+├── models/
+│ ├── mnist_cnn_model.keras
+│ ├── emnist_cnn_model.keras
 │
 ├── notebooks/
-│ └── training.ipynb
+│ └── training_pipeline.ipynb
 │
 ├── results/
-│ ├── confusion_matrix_mnist.png
-│ ├── confusion_matrix_emnist.png
-│ ├── accuracy_graph.png
-│ └── loss_graph.png
+│ ├── mnist_confusion_matrix.png
+│ ├── emnist_confusion_matrix.png
+│ ├── accuracy_curve.png
+│ ├── loss_curve.png
+│
+├── samples/
+│ └── real_world_tests.png
 │
 └── README.md
 ```
 
+---
+
+## 🔮 Future Scope
+
+- 🌐 Deploy using Streamlit / Flask  
+- 📱 Mobile app integration  
+- 🎥 Real-time webcam prediction  
+- 🧠 Upgrade to ResNet / EfficientNet  
+- ✍️ Add drawing canvas UI  
+- ⚡ TensorFlow Lite optimization  
+- 🔀 Unified MNIST + EMNIST model  
 
 ---
 
-## 🔮 Future Improvements
+## 👨‍💻 Author
 
-- 🚀 Deploy as a web app (Streamlit / Flask)  
-- 📱 Mobile app integration for live prediction  
-- 🎥 Webcam-based real-time recognition  
-- 🧠 Upgrade to ResNet / CNN-LSTM hybrid models  
-- 🔤 Combine MNIST + EMNIST into one unified model  
-- ✍️ Add drawing canvas for live handwriting prediction  
-- ⚡ Optimize model for edge devices (TensorFlow Lite)  
-
----
-
-## 👤 Author
-
-**Datta Sai Srinivas**  
+**Datta Sai Srinivas Devulapalli**  
 ML Intern | Deep Learning Enthusiast  
 
 🔗 LinkedIn:  
-https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/  
+https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/
 
 ---
 
-## 📄 License
+## 📜 License
 
 This project is licensed under the MIT License.
-

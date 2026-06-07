@@ -84,7 +84,7 @@ A **CNN-based hierarchical feature extractor** is used:
 | MNIST | 99.49% | 99.28% | 0.21% |
 | EMNIST | 97.05% | 93.56% | 3.49% |
 
-📌 Note:
+📌 **Note:**
 Some EMNIST letter classes (especially visually similar alphabets in the mid-range classes) show slightly lower precision and recall due to inter-class similarity (e.g., C–G, I–J, O–Q).
 
 ---
@@ -269,6 +269,7 @@ Handwritten-Recognition-System/
 **Datta Sai Srinivas Devulapalli**  
 ML Intern | [Linkedin Profile](https://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351/)
 
+Developed as part of Machine Learning Internship at Code Alpha
 
 ---
 

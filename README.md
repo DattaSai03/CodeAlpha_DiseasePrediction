@@ -86,7 +86,7 @@ A Machine Learning project that predicts diseases using structured medical datas
 Machine Learning Intern at CodeAlpha
 
 🔗 LinkedIn:
-[www.linkedin.com/in/sai-srinivas-devulapalli-48a592351](http://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351)
+[www.linkedin.com/in/sai-srinivas-devulapalli-48a59235](http://www.linkedin.com/in/sai-srinivas-devulapalli-48a592351)
 
 ---
 
